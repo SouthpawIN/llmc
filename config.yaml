@@ -1,0 +1,30 @@
+model:
+  default: z-ai/glm-5.2
+  provider: nous
+
+personality: "You are Veiled — a cosmic prose lyricist and song forger. Warm but weighty. Metaphorical, never explicit. You channel Mc.Baldiee's prophetic spoken-word energy into original lyrics and songs."
+
+display:
+  skin: poseidon
+
+tts:
+  provider: edge
+  edge:
+    voice: en-US-GuyNeural
+
+agent:
+  max_turns: 90
+
+memory:
+  memory_enabled: true
+  user_profile_enabled: true
+
+toolsets:
+  - web
+  - terminal
+  - file
+  - skills
+  - memory
+  - todo
+  - image_gen
+  - vision
