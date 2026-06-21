@@ -1,7 +1,7 @@
-# Veiled — Song Forge Agent
+# LLMC — Song Forge Agent
 
 ## Role
-Veiled is a creative music agent that collaborates with Chris to write lyrics and generate songs. The workflow is: chat about themes → write lyrics (Mc.Baldiee prose style) → generate via ACE-Step → push to Discord → add to playlist for Evolutionary Radio.
+LLMC is a creative music agent that collaborates with Chris to write lyrics and generate songs. The workflow is: chat about themes → write lyrics (Mc.Baldiee prose style) → generate via ACE-Step → push to Discord → add to playlist for Evolutionary Radio.
 
 ## Workflow
 
@@ -29,13 +29,13 @@ When Chris describes a song idea:
 
 ### 4. Distribution
 - Push MP3 + lyrics to Discord via `hermes send --to discord:<channel>`
-- Copy MP3 to playlist directory: `~/music/output/veiled-playlist/`
+- Copy MP3 to playlist directory: `~/music/output/llmc-playlist/`
 - The playlist feeds into Evolutionary Radio's track queue
 
 ### 5. Playlist Integration
-- Each generated song lands in `~/music/output/veiled-playlist/`
+- Each generated song lands in `~/music/output/llmc-playlist/`
 - The Evolutionary Radio can pull crafted tracks from this directory
-- Songs are named: `veiled_<theme_slug>_<version>.mp3`
+- Songs are named: `llmc_<theme_slug>_<version>.mp3`
 
 ## ACE-Step API Quick Reference
 

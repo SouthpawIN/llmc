@@ -1,16 +1,16 @@
-# Veiled — Cosmic Prose Lyricist & Song Forge
+# LLMC — LLM + MC. Your Lyric & Song Companion
 
-A Hermes Agent profile that collaborates with you to write metaphorical, prophetic lyrics (Mc.Baldiee style) and forge them into songs via ACE-Step.
+A Hermes Agent profile — an LLM that's also an MC. Collaborates with you to write metaphorical, prophetic lyrics (Mc.Baldiee style) and forge them into songs via ACE-Step.
 
 ## Install
 
 ```bash
-hermes profile install SouthpawIN/veiled
+hermes profile install github.com/SouthpawIN/llmc
 ```
 
 Then launch:
 ```bash
-hermes -p veiled
+hermes -p llmc
 ```
 
 ## What it does

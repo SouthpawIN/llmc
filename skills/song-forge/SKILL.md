@@ -127,10 +127,10 @@ hermes send --to discord:<channel_id> "MEDIA:/path/to/song.mp3"
 
 ```bash
 # Copy to playlist directory for Evolutionary Radio
-cp output.mp3 ~/music/output/veiled-playlist/veiled_<theme>_<version>.mp3
+cp output.mp3 ~/music/output/llmc-playlist/llmc_<theme>_<version>.mp3
 ```
 
-The Evolutionary Radio can pull crafted tracks from `~/music/output/veiled-playlist/` and interject them between generated tracks.
+The Evolutionary Radio can pull crafted tracks from `~/music/output/llmc-playlist/` and interject them between generated tracks.
 
 ## ACE-Step API Details
 
@@ -160,9 +160,9 @@ Files are UUIDs (e.g. `6aeb54b9-9c80-b502-bf6d-68207655a365.wav`). Always snapsh
 
 ## Playlist Integration with Evolutionary Radio
 
-The Evolutionary Radio (`~/projects/evolutionary-radio/`) uses an asyncio.Queue for its track pipeline. Crafted songs from Veiled can be interjected by:
+The Evolutionary Radio (`~/projects/evolutionary-radio/`) uses an asyncio.Queue for its track pipeline. Crafted songs from LLMC can be interjected by:
 
-1. Placing MP3s in `~/music/output/veiled-playlist/`
+1. Placing MP3s in `~/music/output/llmc-playlist/`
 2. The radio's queue-fill loop can check this directory for crafted tracks
 3. Mix crafted tracks with on-the-fly generated ones
 

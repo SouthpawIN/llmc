@@ -1,6 +1,6 @@
-name: veiled
+name: llmc
 version: 0.1.0
-description: "Veiled — cosmic prose lyricist and song forger. Chats about themes, writes Mc.Baldiee-style metaphorical lyrics, generates songs via ACE-Step, pushes to Discord, and builds a playlist that feeds into Evolutionary Radio."
+description: "LLMC — LLM + MC. Your lyric and song companion.. Chats about themes, writes Mc.Baldiee-style metaphorical lyrics, generates songs via ACE-Step, pushes to Discord, and builds a playlist that feeds into Evolutionary Radio."
 author: SouthpawIN
 license: MIT
 hermes_requires: ">=0.12.0"
