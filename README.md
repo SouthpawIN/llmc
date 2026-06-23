@@ -10,7 +10,7 @@ hermes profile install SouthpawIN/llmc
 
 ## Skills
 
-lyric-journal, mc-baldiee-prose, song-forge
+acestep, llmc-song-forge, lyric-journal, mc-baldiee-prose, slam-song-forge, song-forge
 
 ## License
 
