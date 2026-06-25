@@ -14,17 +14,28 @@ tts:
 
 agent:
   max_turns: 90
+  tool_use_enforcement: auto
 
 memory:
   memory_enabled: true
   user_profile_enabled: true
 
+skills:
+  template_vars: true
+
+context:
+  engine: compressor
+
 toolsets:
-  - web
-  - terminal
+- hermes-cli
+
+platform_toolsets:
+  cli:
   - file
-  - skills
-  - memory
-  - todo
   - image_gen
+  - memory
+  - skills
+  - terminal
+  - todo
   - vision
+  - web

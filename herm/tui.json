@@ -1,0 +1,6 @@
+{
+  "mouse": true,
+  "targetFps": 30,
+  "theme": "poseidon",
+  "eikonPath": "/home/sovthpaw/.bun/install/global/node_modules/herm-tui/assets/eikons/default.eikon"
+}

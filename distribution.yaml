@@ -1,12 +1,21 @@
 name: llmc
-version: 0.1.0
-description: "Hermes Agent profile: llmc"
+version: 0.2.0
+description: "LLMC — LLM + MC. Your lyric and song companion. Chats about themes, writes Mc.Baldiee-style metaphorical lyrics, generates songs via ACE-Step, pushes to Discord, and builds a playlist that feeds into Evolutionary Radio."
 author: SouthpawIN
 license: MIT
+homepage: https://github.com/SouthpawIN/llmc
 hermes_requires: ">=0.12.0"
-env_requires: []
 distribution_owned:
   - SOUL.md
   - AGENTS.md
   - config.yaml
   - skills/
+  - herm/
+  - README.md
+env_requires:
+  - name: GLM_API_KEY
+    description: "Z.AI GLM API key (or any LLM provider key via OpenRouter/Nous)"
+    required: false
+  - name: DISCORD_BOT_TOKEN
+    description: "Discord bot token for sharing songs to Discord channels"
+    required: false
