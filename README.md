@@ -1,6 +1,6 @@
 # LLMC — Song Forger & Creative Music Agent
 
-![LLMC](https://v3b.fal.media/files/b/0a9fe926/RlyEwfZ4R8cH1QfEwhEXF_GpfTAHeo.png)
+![LLMC](https://v3b.fal.media/files/b/0a9fe98d/3gpcxPgerAOI5bEpZTsSI_9rTvA7HD.png)
 
 ## What LLMC Does
 
